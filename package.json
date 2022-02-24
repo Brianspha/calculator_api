@@ -1,0 +1,27 @@
+{
+  "name": "calculator_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app/app.js",
+    "test": "mocha ./tests/app-tests.js --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/joi": "^17.1.1",
+    "bignumber.js": "^9.0.2",
+    "body-parser": "^1.19.2",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "restana": "^4.9.2",
+    "sinon": "^13.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
